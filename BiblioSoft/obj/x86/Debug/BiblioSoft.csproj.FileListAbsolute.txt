@@ -1,0 +1,24 @@
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\bin\Debug\BiblioSoft.exe
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\bin\Debug\BiblioSoft.pdb
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\obj\x86\Debug\BiblioSoft.frmPrincipal.resources
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\obj\x86\Debug\BiblioSoft.Properties.Resources.resources
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\obj\x86\Debug\BiblioSoft.csproj.GenerateResource.Cache
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\obj\x86\Debug\BiblioSoft.exe
+C:\Users\NSPC17\AppData\Local\Temporary Projects\BiblioSoft\obj\x86\Debug\BiblioSoft.pdb
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.exe
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.pdb
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\bin\Debug\BiblioSoft.exe
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\bin\Debug\BiblioSoft.pdb
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmPrincipal.resources
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.Properties.Resources.resources
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.exe
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.pdb
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\bin\Debug\BiblioSoft.exe
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\bin\Debug\BiblioSoft.pdb
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmPrincipal.resources
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.Properties.Resources.resources
+C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.csproj.GenerateResource.Cache
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmLibros.resources
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmInicio.resources
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmViewLibro.resources
