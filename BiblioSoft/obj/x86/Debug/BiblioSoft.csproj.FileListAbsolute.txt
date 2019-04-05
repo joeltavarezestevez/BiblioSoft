@@ -22,3 +22,5 @@ C:\Users\pc\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.csproj.Genera
 C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmLibros.resources
 C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmInicio.resources
 C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmViewLibro.resources
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.csprojResolveAssemblyReference.cache
+C:\Users\NSPC17\Desktop\BiblioSoft\BiblioSoft\obj\x86\Debug\BiblioSoft.frmLibrosConsulta.resources

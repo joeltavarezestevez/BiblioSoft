@@ -49,6 +49,7 @@ namespace BiblioSoft
         //Metodo para abrir un Form en un Panel
         private void abrirFormEnPanel(object formHijo)
         {
+            panelContenedor.Visible = false;
             //Verificar si hay un form en el panel
             if (panelContenedor.Controls.Count > 0)
             {
@@ -70,6 +71,7 @@ namespace BiblioSoft
 
             //Mostramos el formNuevo
             formNuevo.Show();
+            panelContenedor.Visible = true;
         }
 
         private void btnInicio_Click(object sender, EventArgs e)
@@ -81,6 +83,12 @@ namespace BiblioSoft
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             btnInicio.PerformClick();
+        }
+
+        private void btnLibros_Click(object sender, EventArgs e)
+        {
+            abrirFormEnPanel(new frmLibrosConsulta());
+            lblOpcionSeleccionada.Text = "Libros";
         }
     }
 }

@@ -19,13 +19,15 @@ namespace BiblioSoft
 
         ConexionSQL conexion = new ConexionSQL();
 
-        public String codigoLibro = "";
-
-        String sql = "";
+        public int IdLibro = 0;
 
         private void frmViewLibro_Load(object sender, EventArgs e)
         {
-            BuscarRegistro();
+            if (IdLibro > 0)
+            {
+                BuscarRegistro();
+            }
+            
         }
 
         /********************************************************************************
@@ -48,12 +50,10 @@ namespace BiblioSoft
             Comando.Connection = conexion.conexion;
 
             //Enviamos el parametro o la consulta que se desea realizar en SQL
-            Comando.CommandText = "SELECT Libros.Id, Libros.Libro_Codigo_Entrada AS Codigo, Libros.Libro_Titulo AS Titulo, Libros.Libro_Subtitulo AS Subtitulo,"
-                   + " Libros.Libro_Ubicacion AS Ubicacion, Libros.Libro_Fecha_Compra AS [Fecha Compra], Libros.Libro_Fecha_Registro AS "
-                   + " [Fecha Registro], Libros.Libro_Estado AS Estado, Libros.Libro_Observaciones AS Observaciones, Autores.Autor_Nombre AS Autor,"
-                   + " Editoras.Editora_Nombre AS Editora, Suplidores.Suplidor_Nombre AS Suplidor FROM Libros INNER JOIN Autores ON "
-                   + " Libros.Autor_Id = Autores.Id INNER JOIN Editoras ON Libros.Editora_Id = Editoras.Id INNER JOIN Suplidores ON "
-                   + " Libros.Suplidor_id = Suplidores.Id where Libros.Libro_Codigo_Entrada = '" + codigoLibro + "'";
+            Comando.CommandText = "SELECT Id, Libro_Codigo_Entrada AS Codigo, Libro_Titulo AS Titulo, Libro_Subtitulo AS Subtitulo,"
+                   + " Libro_Ubicacion AS Ubicacion, Libro_Fecha_Compra AS [Fecha Compra], Libro_Fecha_Registro AS "
+                   + " [Fecha Registro], Libro_Estado AS Estado, Libro_Observaciones AS Observaciones, Autor_Nombre AS Autor,"
+                   + " Editora_Nombre AS Editora, Suplidor_Nombre AS Suplidor FROM Libros where Id = '" + IdLibro + "'";
 
             //Ejecutamos el comando y almacenamos el resultado en el Lector de datos.
             LectorRegistro = Comando.ExecuteReader();
@@ -82,6 +82,44 @@ namespace BiblioSoft
             }
             conexion.conexion.Close();
             LectorRegistro.Close();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            frmLibros frm = new frmLibros();
+            frm.IdLibro = IdLibro;
+            frm.Show();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (IdLibro > 0)
+            {
+                DialogResult d = MessageBox.Show("Está seguro que desea eliminar este registro?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (d == DialogResult.Yes)
+                {
+                    try
+                    {
+                        conexion.ejecutar("Delete from Libros Where id=" + IdLibro);
+                        MessageBox.Show("Registro Eliminado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception error)
+                    {
+                        MessageBox.Show("Este libro no puede ser eliminado porque tiene registros dependientes (Prestamos, Devoluciones, etc.) " + error.Message, "Aviso - eliminarRegistro", MessageBoxButtons.OK, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button1);
+                        return;
+                    }
+                    finally
+                    {
+                        conexion.conexion.Close();
+                    }
+                    Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("No hay un libro seleccionado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
         }
     }
 }

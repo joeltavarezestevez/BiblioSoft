@@ -183,9 +183,49 @@ namespace BiblioSoft.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_icon {
+            get {
+                object obj = ResourceManager.GetObject("delete_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("delete_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_icon {
+            get {
+                object obj = ResourceManager.GetObject("edit_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap editors_icon {
             get {
                 object obj = ResourceManager.GetObject("editors_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_icon {
+            get {
+                object obj = ResourceManager.GetObject("exit_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +266,16 @@ namespace BiblioSoft.Properties {
         internal static System.Drawing.Bitmap restore_icon {
             get {
                 object obj = ResourceManager.GetObject("restore_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_icon {
+            get {
+                object obj = ResourceManager.GetObject("save_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

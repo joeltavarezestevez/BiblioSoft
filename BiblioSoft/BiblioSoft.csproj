@@ -59,6 +59,12 @@
     <Compile Include="frmLibros.Designer.cs">
       <DependentUpon>frmLibros.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLibrosConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLibrosConsulta.Designer.cs">
+      <DependentUpon>frmLibrosConsulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLibros.resx">
       <DependentUpon>frmLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLibrosConsulta.resx">
+      <DependentUpon>frmLibrosConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
@@ -155,6 +164,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\book_loan2_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

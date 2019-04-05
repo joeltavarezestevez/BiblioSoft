@@ -121,11 +121,17 @@
   <data name="restore_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restore_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="save_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="default-user-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\default-user-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Da-vinci-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Da-vinci-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minimize_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +139,14 @@
   <data name="supplier_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\supplier_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="editors_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editors_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="book_loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book_loan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="author_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\author_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,17 +157,20 @@
   <data name="book_icon_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book_icon_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delete_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximize_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="editors_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\editors_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="book_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_loan2_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_loan2_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="author_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\author_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,7 +184,7 @@
   <data name="home_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="book_loan2_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book_loan2_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
